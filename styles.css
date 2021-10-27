@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(12, 13, 14);
+    /*background: linear-gradient(0deg,rgb(12, 15, 24)0%,rgb(31, 27, 97)100%);*/
+    background: radial-gradient(#fefeff,#1b1b53);
+}
+input{
+    background-color: chartreuse;
+}
+button{
+    background-color: chartreuse;
+    font: oblique;
+    size: 100px;
+    position: center;
+}
+/*estilos del menu*/
+ul{
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+ul li{
+    list-style: none;
+    float: left;
+}
+
+.navegador {
+    position: absolute;
+    top: 0px;
+    /*left: -100%;*/
+    width: 100%;
+    transition: all 0.5s;
+}
+.menu {
+    background-color: radial-gradient(#fefeff,#1b1b53);
+    width: 100%;
+    position: initial;
+    top: 0;
+    padding: 5px;
+    z-index: 999;
+    text-align: right;
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    margin-bottom: 1000px;
+
+
+}
+.menu_Link {
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 30px;
+    background-color: radial-gradient(#fefeff,#1b1b53)
+    margin: 0 10px;
+    transition: .5s ease all;
+    color: white;
+    text-decoration: none;
+    
+}
+.menu_Link:hover {
+    background: chartreuse;
+    color: black;
+}
